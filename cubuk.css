@@ -1,0 +1,97 @@
+
+.navbar-brand {
+    width: 100px;
+    left: 15px;
+    background-size: contain;
+  
+}
+
+.split-nav{
+  min-height: 14vh;
+}
+
+/* unvisited link */
+ a:link {
+    color: rgb(191, 125, 39);
+    text-decoration: none !important;
+    transition:all 1s;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(112, 81, 175);
+    text-decoration: none !important;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:rgba(68, 33, 58, 0.781);
+    text-decoration: none !important;
+    transform:scale(1.1);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(157, 76, 120);
+    text-decoration: none !important;
+  }
+
+  #aboutheader , #homeheader{
+    background: url(./about-header.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    /* background-attachment: fixed; */
+  
+  }
+
+  .height{
+    min-height:50vh;
+  }
+  
+  .text-cubuk{
+    color: rgb(162, 69, 69);
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+  }
+
+  .justify {
+    text-align: justify;
+  }
+ul{
+  float: left; 
+}
+
+.login-Bing{
+  background-image: url(./always.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  align-items: center;
+}
+
+#footer li{
+  float: left;
+  list-style: none;
+  padding:10px;
+
+}
+
+/* this will make my image resposive */
+img{
+  transition: all 1s;
+}
+img:hover{
+  transform:scale(1.1);
+}
+/* end  */
+
+
+
+h2{
+  font-family: 'Courier New', Courier;
+}
+
